@@ -6,6 +6,8 @@ import org.springframework.kafka.annotation.KafkaListener;
 @Configuration
 public class KafkaConfig {
     // test
+    
+    // test 123
     @KafkaListener(topics = "location-update-topic", groupId = "group")
     public void updatedLocation (String value) {
 
